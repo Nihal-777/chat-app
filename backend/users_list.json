@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "69d29c96c987cf057c2d62e3",
+    "fullName": "Nihal",
+    "email": "nihal123@gmail.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858ef9",
+    "fullName": "Emma Thompson",
+    "email": "emma.thompson@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858efa",
+    "fullName": "Olivia Miller",
+    "email": "olivia.miller@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858efb",
+    "fullName": "Sophia Davis",
+    "email": "sophia.davis@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858efc",
+    "fullName": "Ava Wilson",
+    "email": "ava.wilson@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858efd",
+    "fullName": "Isabella Brown",
+    "email": "isabella.brown@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858efe",
+    "fullName": "Mia Johnson",
+    "email": "mia.johnson@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858eff",
+    "fullName": "Charlotte Williams",
+    "email": "charlotte.williams@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f00",
+    "fullName": "Amelia Garcia",
+    "email": "amelia.garcia@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f01",
+    "fullName": "James Anderson",
+    "email": "james.anderson@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f02",
+    "fullName": "William Clark",
+    "email": "william.clark@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f03",
+    "fullName": "Benjamin Taylor",
+    "email": "benjamin.taylor@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f04",
+    "fullName": "Lucas Moore",
+    "email": "lucas.moore@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f05",
+    "fullName": "Henry Jackson",
+    "email": "henry.jackson@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f06",
+    "fullName": "Alexander Martin",
+    "email": "alexander.martin@example.com"
+  },
+  {
+    "_id": "69d2a3b39bccbcd436858f07",
+    "fullName": "Daniel Rodriguez",
+    "email": "daniel.rodriguez@example.com"
+  },
+  {
+    "_id": "69d2a60aec8761bec5c48ea6",
+    "fullName": "Raju",
+    "email": "raju123@gmail.com"
+  }
+]
