@@ -6,6 +6,7 @@ import { connectDB } from "./lib/db.js";
 import cookiesParser from "cookie-parser";
 import messageRoutes from "./routes/message.route.js";
 import { app, server } from "./lib/socket.js";
+import path from "path";
 
 dotenv.config(); // load env first
 
@@ -25,6 +26,16 @@ app.use(
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
+
+const __dirname = path.resolve();
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "../Frontend/dist")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../Frontend/dist", "index.html"));
+  });
+}
 
 server.listen(PORT, () => {
   console.log("Server running on PORT:" + PORT);
