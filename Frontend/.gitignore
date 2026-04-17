@@ -1,24 +1,84 @@
-# Logs
-logs
+# ==========================================
+# Node.js Dependencies & Logs
+# ==========================================
+node_modules/
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# ==========================================
+# Build / Distribution
+# ==========================================
+build/
+dist/
+out/
+
+# ==========================================
+# Caches & Runtime Data
+# ==========================================
+.eslintcache
+.parcel-cache/
+.cache/
+coverage/
+.nyc_output/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================================
+# OS-Specific Files
+# ==========================================
+# macOS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# IntelliJ / WebStorm (JetBrains)
+.idea/
+*.iml
+*.iws
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
