@@ -10,7 +10,7 @@ import path from "path";
 
 dotenv.config(); // load env first
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 
 
 
@@ -27,15 +27,9 @@ app.use(
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
-const __dirname = path.resolve();
-
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../Frontend/dist")));
-
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../Frontend/dist", "index.html"));
-  });
-}
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 
 server.listen(PORT, () => {
   console.log("Server running on PORT:" + PORT);
